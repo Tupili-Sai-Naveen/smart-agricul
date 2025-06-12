@@ -4,7 +4,7 @@
   "description": "Smart Agriculture Web App",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "./start.sh"
   },
   "dependencies": {
     "body-parser": "^1.20.2",
