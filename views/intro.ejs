@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Agriculture</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-image: url('https://images.unsplash.com/photo-1581093458791-ff6b68c51c4e?auto=format&fit=crop&w=1600&q=80');
+        background-size: cover;
+        background-position: center;
+        color: white;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-shadow: 1px 1px 2px black;
+      }
+
+      .intro-box {
+        background: rgba(0, 0, 0, 0.6);
+        padding: 30px;
+        border-radius: 15px;
+        max-width: 800px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      footer {
+        margin-top: auto;
+        text-align: center;
+        color: #ccc;
+        padding: 10px;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="intro-box">
+      <h1 class="mb-4">🌿 Smart Agriculture</h1>
+      <p class="lead">
+        Welcome to the AI-powered crop and yield prediction system.
+        <br /><br />
+        Using environmental and soil data like temperature, humidity, soil pH,
+        nutrients, and rainfall, this system:
+      </p>
+      <ul class="list-group list-group-flush text-start bg-transparent mt-3">
+        <li class="list-group-item bg-transparent text-white">📌 Suggests the most suitable crop to grow</li>
+        <li class="list-group-item bg-transparent text-white">📈 Predicts expected crop yield</li>
+        <li class="list-group-item bg-transparent text-white">🌱 Promotes sustainable, data-driven farming</li>
+      </ul>
+      <a href="/register" class="btn btn-success mt-4 px-4">Get Started</a>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      Developed by Sai Naveen &copy; <%= new Date().getFullYear() %>
+    </footer>
+  </body>
+</html>
